@@ -1,0 +1,8 @@
+root_id                    = "corp"
+root_name                  = "Enterprise Cloud Root"
+primary_location           = "eastus"
+hub_address_space          = ["10.100.0.0/16"]
+firewall_subnet_prefix     = ["10.100.2.0/24"]
+gateway_subnet_prefix      = ["10.100.1.0/24"]
+spoke_corp_address_space   = ["10.101.0.0/16"]
+spoke_online_address_space = ["10.102.0.0/16"]
